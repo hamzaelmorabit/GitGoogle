@@ -1,3 +1,2 @@
-print('Hello!')
-for i in range(0, 100):
-    print(i)
+import re
+print(re.match('[./]', ".aa"[0]))
